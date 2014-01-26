@@ -1,0 +1,9 @@
+#opens the arguement variable
+filename = ARGV.first
+#sign that would show at the beginning of the user response
+prompt = "> "
+#opens file in brackets
+txt = File.open("ex15_sample.txt")
+#displays the file contents
+puts "Here's your file: #{filename}"
+
